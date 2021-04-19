@@ -1,1 +1,1 @@
-https://weihairc.github.io/Lab2/
+https://weihairc.github.io/sp21-cse110-lab3/
