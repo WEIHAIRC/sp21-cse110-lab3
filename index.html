@@ -5,11 +5,65 @@
     <title>Yang Yue's Journals for the recent 3 days(2021 Apr 9 - 11) </title>
     <link rel="myself1" type="image/jpg" href="/media_source/Myself2.jpg" >
     <link rel="stylesheet" href="Ystyle.css">
+    <style>
+        
+
+        /*for Journal division */
+        div.Journal {
+            text-align: center;
+        }
+
+        /*for class Apr9para and Apr10para */
+        .Apr9para,
+        .Apr10para{
+            margin-top: 1em;
+            margin-left: 1em;
+            margin-right: 1em;
+            margin-bottom: 3em;
+            font-family: font1;
+        }
+
+        /*for element with id Apr11 */
+        #Apr11{
+            color: hsla(50, 80%, 50%, 1);
+            background-color: green;
+            margin-left: 0.5cm;
+            line-height: 2vw;
+        }
+
+        /*for summary element inside section element*/
+        section summary {
+            color: hsla(50, 80%, 50%, 1);
+            background-color: green;
+            margin-left: 0.5cm;
+            line-height: 2vw;
+        } 
+
+        /*for unordered list elements after h2 heading elements */
+        h2 ~ ul {
+            color: rgb(230, 25, 230);
+            margin-left: 0.5cm;
+            line-height: 2vw;
+        }
+
+        /*for the first details element after p element */
+        p + details{
+
+            color: rgb(230, 25, 230);
+            margin-left: 0.5cm;
+            line-height: 2vw;
+        }
+
+
+
+
+
+    </style>
 </head>
     <body>
 
         <header>
-            <div><h1>Journals for the recent 3 days</h1></div>
+            <div class="Journal"><h1>Journals for the recent 3 days</h1></div>
             <nav>
                 <ul>
                     <li><a href="#Apr9">2 Days ago (Apr 9 2021)</a></li>
@@ -20,8 +74,9 @@
         </header>
         <main>
             <section>
+
                 <h1 id="Apr9"> 2 Days ago (Apr 9 2021)</h1>
-                    <p>I did not overcome procrastiation on that day. I finsihed and submitted Math 20E
+                    <p class="Apr9para"> I did not overcome procrastiation on that day. I finsihed and submitted Math 20E
                     Homework until 12 minutes before the deadline. That is a failure, and I should improve.<br>
                     
                     Since I am in GMT+8 time zone, the 11:59PM was actually afternoon of my local time.
@@ -57,7 +112,7 @@
             <section>
                 <h1 id="Apr10">Yesterday (Apr 10 2021)</h1>
 
-                    <p>
+                    <p class="Apr10para">
                     I just listed the things to finish for that day, but did not make a detailed plan, 
                     so I start my work in disorder. For example, since I did not make any plan about 
                     the time to take CSE101 or PHIL 28 Quiz, I finally performed multitask on the 
@@ -81,7 +136,7 @@
             <hr>
             <section>
                 <h1 id="Apr11">Today (Apr 11 2021)</h1>
-                <p> 
+                <p style="color:brown"> 
                     Today I need to submit CSE110 Lab 2. I did not start early on that assignment. 
                     I will pay for that: our group meeting is today 7-8PM, and there are also other 
                     assginments due soon. <br> 
