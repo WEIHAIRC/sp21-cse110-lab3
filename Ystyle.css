@@ -1,0 +1,54 @@
+/*for body elements */
+body {
+  background-color: lightblue;
+}
+
+/*for h1 elements */
+h1 {
+  color: navy;
+  margin-left: 20px;
+  line-height: 1em;
+   font-family: 'Zen Dots', cursive;
+
+
+}
+
+/*for h2 elements */
+h2 {
+    color: #d4922e;
+    margin-left: 5mm;
+    line-height: 1ex;
+}
+
+/*for h3 elements */
+h3 {
+    color: hsla(50, 80%, 50%, 1);
+    background-color: green;
+    margin-left: 0.5cm;
+    line-height: 2vw;
+}
+
+/*for form elements */
+form {
+    color: rgba(160, 28, 236, 0.9);
+    text-decoration: underline;
+
+}
+
+/*for all elements */
+*{
+    font-weight: normal;
+}
+
+/*for h1 elements with id "Apr9" */
+h1[id="Apr9"] {
+    color: rgb(230, 216, 25);
+    background-color: rgb(128, 4, 0);
+    margin-left: 0.5cm;
+    line-height: 2vw;
+}
+
+/*Button becomes blue after clicked */
+button:hover {
+  color: blue;
+}
